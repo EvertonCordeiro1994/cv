@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: black;
+}
+
+header,main{
+    margin: auto;
+    width: 80vw;
+    background-color: white;
+}
+
+.nav-link:hover{
+    color: black;
+}
+section{
+    padding: 10px;
+}
