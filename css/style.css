@@ -59,6 +59,16 @@ a{
         background-color: black;
     }
 
+    .fixado{
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    #home{
+        padding-top: 6rem;
+    }
+
     header,main{
         width: 100vw;
         background-color: white;
