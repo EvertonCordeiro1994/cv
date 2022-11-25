@@ -25,3 +25,17 @@ section{
 a{
     text-decoration: none;
 }
+
+@media(max-width: 991px){
+    header,main{
+        margin: auto;
+        width: 100vw;
+        background-color: white;
+    }
+
+    #controle-menu{
+        display:flex;
+        flex-direction: column;
+    }
+    
+}
