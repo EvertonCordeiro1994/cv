@@ -15,8 +15,8 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-light">
-            <div id="controle-menu"class="container-fluid d-flex justify-content-between">
-                <div id="div-nav" >
+            <div id="controle-menu" class="container-fluid d-flex justify-content-between">
+                <div id="div-nav">
                     <a class="navbar-brand" href="#">Curriculo de Éverton Cordeiro</a>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -57,6 +57,7 @@
         </section>
         <section>
             <h2>Vaga pretendida</h2>
+            <hr>
             <p>
                 <strong>Desenvolvedor jr</strong> - Estou a procura de uma vaga, onde eu possa aprimorar
                 meus conhecimentos em programação, evoluindo conforme me torno mais
@@ -65,46 +66,50 @@
             </p>
         </section>
         <section id="experiencias">
-            <div>
-                <h2>Experiências</h2>
-                <h3>Atendente</h3>
-                <div class="d-flex flex-row justify-content-between">
-                    <p>Petz</p>
-                    <p>Agosto - 2019 - Março 2021</p>
-                </div>
-                <li>
-                    Principais Atividades: atendimento de clientes e transportadoras, auxiliar
-                    clientes com problemas de compras online, demonstrar produtos em loja,
-                    abastecimento e limpeza de pontos de exposição
-                </li>
-            </div>
+            <h2>Experiências</h2>
+            <hr>
+            <div id="jobs">
 
-            <div>
-                <h3>Atendente | Produtor</h3>
-                <div class="d-flex flex-row justify-content-between">
-                    <p>Troppo Buono</p>
-                    <p>Setembro-2017 - Fevereiro - 2019</p>
+                <div>
+                    <h3>Atendente</h3>
+                    <div class="d-flex flex-row justify-content-between">
+                        <p>Petz</p>
+                        <p>Agosto - 2019 - Março 2021</p>
+                    </div>
+                    <li>
+                        Principais Atividades: atendimento de clientes e transportadoras, auxiliar
+                        clientes com problemas de compras online, demonstrar produtos em loja,
+                        abastecimento e limpeza de pontos de exposição
+                    </li>
                 </div>
-                <li>
-                    Principais Atividades: Produzir sorvetes, elaborar a exposição e decorações
-                    dos sorvetes, atendimento no caixa/balcão e auxiliar na limpeza da loja.
-                </li>
-            </div>
-            <div>
-                <h3>Auxiliar de Produção</h3>
-                <div class="d-flex flex-row justify-content-between">
-                    <p>RPedro Produções</p>
-                    <p>Março 2015 - Fevereiro 2016</p>
+                <div>
+                    <h3>Atendente | Produtor</h3>
+                    <div class="d-flex flex-row justify-content-between">
+                        <p>Troppo Buono</p>
+                        <p>Setembro-2017 - Fevereiro - 2019</p>
+                    </div>
+                    <li>
+                        Principais Atividades: Produzir sorvetes, elaborar a exposição e decorações
+                        dos sorvetes, atendimento no caixa/balcão e auxiliar na limpeza da loja.
+                    </li>
                 </div>
-                <li>
-                    Principais Atividades: Auxiliar na produção de eventos , programação da
-                    produtora ,edição dos programas ,montagens fotos , correção imagens
-                    (photoshop), capturas de fitas.
-                </li>
+                <div>
+                    <h3>Auxiliar de Produção</h3>
+                    <div class="d-flex flex-row justify-content-between">
+                        <p>RPedro Produções</p>
+                        <p>Março 2015 - Fevereiro 2016</p>
+                    </div>
+                    <li>
+                        Principais Atividades: Auxiliar na produção de eventos , programação da
+                        produtora ,edição dos programas ,montagens fotos , correção imagens
+                        (photoshop), capturas de fitas.
+                    </li>
+                </div>
             </div>
         </section>
         <section id="conhecimento">
             <h2>Conhecimento em</h2>
+            <hr>
             <ul>
                 <li>JavaScript
                 <li>HTML5
@@ -113,32 +118,36 @@
             </ul>
         </section>
         <section id="educacao">
-            <div>
-                <h2>Educação</h2>
-                <h3>
-                    Técnico em análise e desenvolvimento de software (trancado)
-                    Uniasselve
-                </h3>
-                <p>
-                    Curso técnico voltado a implementação de normas para trabalhos com
-                    software. Trancado após o final do primeiro semestre.
-                </p>
-            </div>
-
-            <div>
-                <h3>Estudante de programação</h3>
-                <p>
-                    Atualmente dedico meu tempo vago para estudar linguagens de
-                    programação de alto desempenho. Estou estudando JavaScript em
-                    aplicações front-end.
-                </p>
+            <h2>Educação</h2>
+            <hr>
+            <div id="estudo">
+                <div>
+                    <h3>
+                        Técnico em <abbr title="Análise e desenvolvimento de software ">ADS</abbr> (trancado) - 
+                        Uniasselve
+                    </h3>
+                    <p>
+                        Curso técnico voltado a implementação de normas para trabalhos com
+                        software. Trancado após o final do primeiro semestre.
+                    </p>
+                </div>
+                <div>
+                    <h3>Estudante de programação</h3>
+                    <p>
+                        Atualmente dedico meu tempo vago para estudar linguagens de
+                        programação de alto desempenho. Estou estudando JavaScript em
+                        aplicações front-end.
+                    </p>
+                </div>
             </div>
         </section>
         <section id="download">
-            <h1>Baixar o Curriculo em pdf</h1>
-            <a class="btn btn-outline-dark" tabindex="-1" role="button"
-                href="docs/Resume Éverton Cordeiro da Silva .pdf" target="_blank"
-                download="curriculo-everton-cordeiro">Clique aqui </a>
+            <h1 class="text-center">Baixar o Curriculo em pdf</h1>
+            <div id="btn-download">
+                <a class="btn btn-outline-dark" tabindex="-1" role="button"
+                    href="docs/Resume Éverton Cordeiro da Silva .pdf" type="application/pdf"
+                    download="curriculo-everton-cordeiro.pdf">Clique aqui </a>
+            </div>
 
         </section>
 
